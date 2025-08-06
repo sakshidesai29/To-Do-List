@@ -1,0 +1,99 @@
+body {
+    /* background-image: url(https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/meetings-bg.jpg); */
+    background-image: url(https://cdn.pixabay.com/photo/2015/05/31/13/45/working-791849_1280.jpg);
+    margin: 0;
+    padding: 0;
+    background-color: #3c3c3c;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9px;
+}
+
+#container {
+    /* background-color: #333030; */
+    background-image: url(https://cdn.pixabay.com/photo/2015/03/19/05/02/background-680424_1280.png);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px 10px rgba(235, 232, 232, 0.15);
+    text-align: center;
+    margin-right: -370px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+/* Hover effect */
+#container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px 15px rgba(5, 1, 1, 0.3);
+}
+
+h1 {
+    color: #080808;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+
+#taskInput {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 15px;
+    box-shadow: 0 0 3px #aaa inset;
+}
+
+#addTaskBtn {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 20px;
+    background-color: #a4e3e0;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addTaskBtn:hover {
+    background-color: #89c9c5;
+}
+li{
+    list-style: none;
+    font-weight: 600;
+}
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin-left: -35px;
+    margin-bottom: 8px;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+#taskList li button {
+    background-color: rgb(80, 76, 76);
+    color: #ff4d4d;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#taskList li button:hover {
+    background-color: #333;
+}
